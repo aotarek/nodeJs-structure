@@ -1,0 +1,35 @@
+{
+  "name": "trending",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "await-to-js": "^2.0.1",
+    "body-parser": "latest",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "~4.16.0",
+    "express-jwt": "^5.3.1",
+    "express-jwt-blacklist": "^1.1.0",
+    "express-validator": "^5.3.1",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.7",
+    "mongoose-currency": "^0.2.0",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "swagger-jsdoc": "^3.2.7",
+    "swagger-ui-express": "^4.0.2"
+  }
+}
